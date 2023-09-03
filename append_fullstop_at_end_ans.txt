@@ -1,0 +1,2 @@
+cat words.txt | awk '{ print $0"." }'
+

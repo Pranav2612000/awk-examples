@@ -1,0 +1,2 @@
+cat addr.txt | awk '{sub(/o/, "0"); print $0}'
+

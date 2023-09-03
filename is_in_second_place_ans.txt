@@ -1,0 +1,5 @@
+cat addr.txt | awk '{
+  if($2 == "is") {
+      print $0
+  }
+}'

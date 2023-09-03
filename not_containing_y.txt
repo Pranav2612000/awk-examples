@@ -1,0 +1,2 @@
+cat addr.txt | awk '!/y/'
+
